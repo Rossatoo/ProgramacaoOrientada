@@ -28,8 +28,9 @@ public class Exercicio6 {
 				
 			}
 			
-				System.out.println("Cidade mais populosa: " + cidades[indice]);
+				
 			}
+		System.out.println("Cidade mais populosa: " + cidades[indiceMaior]);
 		}
 		
 		
@@ -37,6 +38,3 @@ public class Exercicio6 {
 		}
 		
 		
-	}
-
-
