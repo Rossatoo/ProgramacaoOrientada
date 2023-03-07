@@ -18,6 +18,7 @@ public class Exercicio6 {
 			cidades[i] = sc.nextLine();
 			System.out.println("E agora a sua populacao: ");
 			populacao[i] = sc.nextFloat();
+			sc.nextLine();
 			}
 		
 		for(int i = 0; i < cidades.length; i++) {
@@ -27,8 +28,7 @@ public class Exercicio6 {
 				
 			}
 			
-			if(i == indiceMaior) {
-				System.out.println("Cidade mais populosa: " + cidades[i]);
+				System.out.println("Cidade mais populosa: " + cidades[indice]);
 			}
 		}
 		
